@@ -1,0 +1,25 @@
+{
+"author": "michaelbaggott",
+"website": "https://github.com/mbaggott/qnap-downloadstation-providers",
+"name": "limetorrents.cc",
+"addon": "limetorrennts.cc.php",
+"class": "limetorrents",
+"hosts": 
+	[
+		"limetorrents.cc"
+	],
+"domain": "limetorrents.cc",
+"version": 1.0.0,
+"interface":
+	[
+		"ISearch"
+	],
+"qpkg_dependencies": 
+	{
+		"DownloadStation": "5.8.2"
+	},
+"description": 
+	{
+		"ENG": "QNAP Download Station Limetorrents.cc search provider"
+	}
+}
